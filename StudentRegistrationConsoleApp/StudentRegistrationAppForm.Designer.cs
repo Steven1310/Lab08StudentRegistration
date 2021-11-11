@@ -190,8 +190,6 @@ namespace StudentRegistrationConsoleApp
             this.Controls.Add(this.labelDepertments);
             this.Controls.Add(this.labelStudents);
             this.Name = "StudentRegistrationAppForm";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.StudentRegistrationAppForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCourses)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRegistrations)).EndInit();

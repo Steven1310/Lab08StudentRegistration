@@ -8,3 +8,13 @@ C:\Users\Michael Hrybyk\OneDrive\Documents\CSIS 3540\Labs\Lab08Student Registrat
 C:\Users\Michael Hrybyk\OneDrive\Documents\CSIS 3540\Labs\Lab08Student RegistrationSolution\StudentRegistrationDB\obj\Debug\predeploy.sql
 C:\Users\Michael Hrybyk\OneDrive\Documents\CSIS 3540\Labs\Lab08Student RegistrationSolution\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.dll
 C:\Users\Michael Hrybyk\OneDrive\Documents\CSIS 3540\Labs\Lab08Student RegistrationSolution\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.pdb
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\bin\Debug\StudentRegistrationDB.dacpac
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\bin\Debug\StudentRegistrationDB.dll
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\bin\Debug\StudentRegistrationDB.pdb
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.sqlproj.AssemblyReference.cache
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\Model.xml
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\refactor.xml
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\postdeploy.sql
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\predeploy.sql
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.dll
+C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.pdb

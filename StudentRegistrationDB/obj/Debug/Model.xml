@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="StudentRegistrationDB.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\MICHAEL HRYBYK\ONEDRIVE\DOCUMENTS\CSIS 3540\LABS\LAB08STUDENT REGISTRATIONSOLUTION\STUDENTREGISTRATIONDB\OBJ\DEBUG\STUDENTREGISTRATIONDB.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\USER\DOWNLOADS\LAB08STUDENTREGISTRATION\LAB08STUDENTREGISTRATION\STUDENTREGISTRATIONDB\OBJ\DEBUG\STUDENTREGISTRATIONDB.DLL" />
 			<Metadata Name="AssemblyName" Value="StudentRegistrationDB" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Michael Hrybyk\OneDrive\Documents\CSIS 3540\Labs\Lab08Student RegistrationSolution\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationDB\obj\Debug\StudentRegistrationDB.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>

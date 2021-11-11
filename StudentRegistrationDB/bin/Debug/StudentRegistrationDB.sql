@@ -15,8 +15,8 @@ SET NUMERIC_ROUNDABORT OFF;
 GO
 :setvar DatabaseName "StudentRegistrationDB"
 :setvar DefaultFilePrefix "StudentRegistrationDB"
-:setvar DefaultDataPath "C:\Users\Michael Hrybyk\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
-:setvar DefaultLogPath "C:\Users\Michael Hrybyk\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DefaultDataPath "C:\Users\User\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DefaultLogPath "C:\Users\User\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
 
 GO
 :on error exit
@@ -49,7 +49,7 @@ BEGIN
 END
 
 GO
-PRINT N'Creating $(DatabaseName)...'
+PRINT N'Creating database $(DatabaseName)...'
 GO
 CREATE DATABASE [$(DatabaseName)]
     ON 
@@ -244,7 +244,7 @@ IF fulltextserviceproperty(N'IsFulltextInstalled') = 1
 
 
 GO
-PRINT N'Creating [dbo].[Courses]...';
+PRINT N'Creating Table [dbo].[Courses]...';
 
 
 GO
@@ -259,7 +259,7 @@ CREATE TABLE [dbo].[Courses] (
 
 
 GO
-PRINT N'Creating [dbo].[Departments]...';
+PRINT N'Creating Table [dbo].[Departments]...';
 
 
 GO
@@ -267,21 +267,13 @@ CREATE TABLE [dbo].[Departments] (
     [DepartmentId]   INT           IDENTITY (1, 1) NOT NULL,
     [DepartmentCode] NVARCHAR (10) NOT NULL,
     [DepartmentName] NVARCHAR (50) NOT NULL,
-    CONSTRAINT [PK_Departments] PRIMARY KEY CLUSTERED ([DepartmentId] ASC)
+    CONSTRAINT [PK_Departments] PRIMARY KEY CLUSTERED ([DepartmentId] ASC),
+    UNIQUE NONCLUSTERED ([DepartmentCode] ASC)
 );
 
 
 GO
-PRINT N'Creating [dbo].[Departments].[IX_DepartmentCode]...';
-
-
-GO
-CREATE UNIQUE NONCLUSTERED INDEX [IX_DepartmentCode]
-    ON [dbo].[Departments]([DepartmentCode] ASC);
-
-
-GO
-PRINT N'Creating [dbo].[StudentCourses]...';
+PRINT N'Creating Table [dbo].[StudentCourses]...';
 
 
 GO
@@ -293,7 +285,7 @@ CREATE TABLE [dbo].[StudentCourses] (
 
 
 GO
-PRINT N'Creating [dbo].[StudentCourses].[IX_CourseId]...';
+PRINT N'Creating Index [dbo].[StudentCourses].[IX_CourseId]...';
 
 
 GO
@@ -302,7 +294,7 @@ CREATE NONCLUSTERED INDEX [IX_CourseId]
 
 
 GO
-PRINT N'Creating [dbo].[StudentCourses].[IX_StudentId]...';
+PRINT N'Creating Index [dbo].[StudentCourses].[IX_StudentId]...';
 
 
 GO
@@ -311,7 +303,7 @@ CREATE NONCLUSTERED INDEX [IX_StudentId]
 
 
 GO
-PRINT N'Creating [dbo].[Students]...';
+PRINT N'Creating Table [dbo].[Students]...';
 
 
 GO
@@ -325,7 +317,7 @@ CREATE TABLE [dbo].[Students] (
 
 
 GO
-PRINT N'Creating [dbo].[Students].[IX_DepartmentId]...';
+PRINT N'Creating Index [dbo].[Students].[IX_DepartmentId]...';
 
 
 GO
@@ -334,7 +326,7 @@ CREATE NONCLUSTERED INDEX [IX_DepartmentId]
 
 
 GO
-PRINT N'Creating [dbo].[FK_Courses_Departments_DepartmentId]...';
+PRINT N'Creating Foreign Key [dbo].[FK_Courses_Departments_DepartmentId]...';
 
 
 GO
@@ -343,7 +335,7 @@ ALTER TABLE [dbo].[Courses]
 
 
 GO
-PRINT N'Creating [dbo].[FK_StudentCourses_Courses_CourseId]...';
+PRINT N'Creating Foreign Key [dbo].[FK_StudentCourses_Courses_CourseId]...';
 
 
 GO
@@ -352,7 +344,7 @@ ALTER TABLE [dbo].[StudentCourses]
 
 
 GO
-PRINT N'Creating [dbo].[FK_StudentCourses_Students_StudentId]...';
+PRINT N'Creating Foreign Key [dbo].[FK_StudentCourses_Students_StudentId]...';
 
 
 GO
@@ -361,7 +353,7 @@ ALTER TABLE [dbo].[StudentCourses]
 
 
 GO
-PRINT N'Creating [dbo].[FK_Students_Departments_DepartmentId]...';
+PRINT N'Creating Foreign Key [dbo].[FK_Students_Departments_DepartmentId]...';
 
 
 GO
