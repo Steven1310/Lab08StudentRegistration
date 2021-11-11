@@ -20,3 +20,25 @@ C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\Studen
 C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationApp.csproj.CopyComplete
 C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.exe
 C:\Users\User\Downloads\Lab08StudentRegistration\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.pdb
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\StudentRegistrationConsoleApp.exe.config
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\StudentRegistrationConsoleApp.exe
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\StudentRegistrationConsoleApp.pdb
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EFControllerUtilities.dll
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EntityFramework.dll
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\StudentRegistrationCodeFirstFromDB.dll
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EFControllerUtilities.pdb
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EFControllerUtilities.dll.config
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\StudentRegistrationCodeFirstFromDB.pdb
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\StudentRegistrationCodeFirstFromDB.dll.config
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EntityFramework.xml
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationApp.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.AddOrUpdateStudentForm.resources
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.Properties.Resources.resources
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.StudentRegistrationAppForm.resources
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationApp.csproj.GenerateResource.cache
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationApp.csproj.CopyComplete
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.exe
+C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationConsoleApp\obj\Debug\StudentRegistrationConsoleApp.pdb
