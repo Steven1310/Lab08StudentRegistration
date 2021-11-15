@@ -93,3 +93,22 @@ C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrat
 C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.csproj.CopyComplete
 C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.dll
 C:\Users\User\Downloads\tmp\New folder\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.pdb
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\StudentRegistrationCodeFirstFromDB.dll.config
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\StudentRegistrationCodeFirstFromDB.dll
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\StudentRegistrationCodeFirstFromDB.pdb
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EFControllerUtilities.dll
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EntityFramework.dll
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\LINQPad.exe
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\lprun.exe
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EFControllerUtilities.pdb
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EFControllerUtilities.dll.config
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EntityFramework.xml
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\LINQPad.exe.config
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\bin\Debug\lprun.exe.config
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.csproj.CopyComplete
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.dll
+C:\Users\User\Downloads\tmp\Lab08StudentRegistration\StudentRegistrationCodeFirstFromDB\obj\Debug\StudentRegistrationCodeFirstFromDB.pdb

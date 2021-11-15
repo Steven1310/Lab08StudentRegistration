@@ -31,14 +31,27 @@ namespace StudentRegistrationConsoleApp
 
         private void StudentRegistrationAppMainForm_Load()
         {
+
+            StudentRegistrationEntities contextRegistration = new StudentRegistrationEntities();
             using (StudentRegistrationEntities context = new StudentRegistrationEntities())
             {
                 context.SeedDatabase();
             }
-            //Use seed database here
 
             InitializeDataGridView<Student>(dataGridViewStudents, "Department", "Courses");
             InitializeDataGridView<Course>(dataGridViewCourses, "Department", "Students");
+            var newRegisteredStudent = (
+                                        from newStudent in contextRegistration.Students
+                                        from newCourse in newStudent.Courses
+                                        select new
+                                        { Department_Name = newStudent.Department.DepartmentCode,
+                                            Couse_Number = newCourse.CourseNumber,
+                                            Course_Name = newCourse.CourseName,
+                                            Student_Id = newStudent.StudentId,
+                                            Student_LastName = newStudent.StudentLastName,
+                                         }).ToList();
+            dataGridViewRegistrations.DataSource = newRegisteredStudent;
+
 
         }
 
