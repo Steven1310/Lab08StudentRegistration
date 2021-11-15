@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOrUpdateCoursesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOrUpdateCoursesForm.Designer.cs">
+      <DependentUpon>AddOrUpdateCoursesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddOrUpdateStudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </Compile>
     <Compile Include="StudentResgistrationAppProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddOrUpdateCoursesForm.resx">
+      <DependentUpon>AddOrUpdateCoursesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddOrUpdateStudentForm.resx">
       <DependentUpon>AddOrUpdateStudentForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +116,10 @@
     <ProjectReference Include="..\StudentRegistrationCodeFirstFromDB\StudentRegistrationCodeFirstFromDB.csproj">
       <Project>{0c5abe31-7faa-4edf-9e36-41889745268d}</Project>
       <Name>StudentRegistrationCodeFirstFromDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentRegistrationValidation\StudentRegistrationValidation.csproj">
+      <Project>{865ba37b-8876-4d7e-9306-e0bbd3a61398}</Project>
+      <Name>StudentRegistrationValidation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
