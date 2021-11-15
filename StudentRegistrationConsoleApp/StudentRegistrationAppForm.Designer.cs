@@ -165,10 +165,12 @@ namespace StudentRegistrationConsoleApp
             // labelInstruction
             // 
             this.labelInstruction.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelInstruction.Location = new System.Drawing.Point(878, 421);
+            this.labelInstruction.Location = new System.Drawing.Point(869, 405);
             this.labelInstruction.Name = "labelInstruction";
-            this.labelInstruction.Size = new System.Drawing.Size(96, 109);
+            this.labelInstruction.Size = new System.Drawing.Size(105, 125);
             this.labelInstruction.TabIndex = 14;
+            this.labelInstruction.Text = "Register by selecting Students and Courses\r\nthen hit Register Button\r\n\r\nDrop by s" +
+    "electing Registrations then hit drop button\r\n ";
             // 
             // StudentRegistrationAppForm
             // 

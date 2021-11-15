@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
@@ -24,36 +25,35 @@ namespace StudentRegistrationConsoleApp
 
             AddOrUpdateStudentForm addUpdateStudentForm = new AddOrUpdateStudentForm();
             buttonAddUpdateStudent.Click += (s, ee) => AddOrUpdateForm<Student>(dataGridViewStudents, addUpdateStudentForm);
+            AddOrUpdateCoursesForm addUpdateCoursesForm = new AddOrUpdateCoursesForm();
+            buttonAddUpdateCourse.Click += (s, ee) => AddOrUpdateForm<Course>(dataGridViewCourses, addUpdateCoursesForm);
         }
 
         private void StudentRegistrationAppMainForm_Load()
         {
-
+            using (StudentRegistrationEntities context = new StudentRegistrationEntities())
+            {
+                context.SeedDatabase();
+            }
             //Use seed database here
 
-
             InitializeDataGridView<Student>(dataGridViewStudents, "Department", "Courses");
-
-
-            StudentRegistrationEntities context = new StudentRegistrationEntities();
-
+            InitializeDataGridView<Course>(dataGridViewCourses, "Department", "Students");
 
         }
 
-        private void AddOrUpdateForm<T>(DataGridView dataGridViewStudents, AddOrUpdateStudentForm addUpdateStudentForm) where T : class
+        private void AddOrUpdateForm<T>(DataGridView dataGridView, Form addUpdateForm) where T : class
         {
-            var output = addUpdateStudentForm.ShowDialog();
+            var output = addUpdateForm.ShowDialog();
 
             // form has closed
 
             if (output == DialogResult.OK)
             {
                 // reload the db and update the gridview
-
-                dataGridViewStudents.DataSource = Controller<StudentRegistrationEntities, T>.SetBindingList();
-
+                dataGridView.DataSource = Controller<StudentRegistrationEntities, T>.SetBindingList();
+                dataGridView.Refresh();
                 // update Registration gridview
-
             }
 
             // do not close, as the form object will be disposed, 
@@ -62,7 +62,7 @@ namespace StudentRegistrationConsoleApp
             // when the inputForm is opened again (ShowDialog()), the Load event will fire
             //  and the form will be reinitialized
 
-            addUpdateStudentForm.Hide();
+            addUpdateForm.Hide();
         }
         private void InitializeDataGridView<T>(DataGridView gridView, params string[] columnsToHide) where T : class
         {
@@ -81,6 +81,7 @@ namespace StudentRegistrationConsoleApp
             // probably not needed, but just in case we have some issues
 
             gridView.DataError += (s, e) => HandleDataError<T>(s as DataGridView, e);
+
 
             gridView.DataSource = Controller<StudentRegistrationEntities, T>.SetBindingList();
 
@@ -114,7 +115,7 @@ namespace StudentRegistrationConsoleApp
             // get the item
 
             T item = e.Row.DataBoundItem as T;
-
+            //if (typeof(T) != typeof(Course))
             Debug.WriteLine("DeletingRow " + e.Row.Index + " entity " + typeof(T) + " " + item);
 
             // Delete the item in the DB. No need to worry about dependencies, as there is no context!
